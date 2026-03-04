@@ -1,0 +1,36 @@
+body {
+display: flex;
+justify-content: center;
+margin-top: 60px;
+background-color: black;
+}
+
+.postal {
+border: 2px solid black;
+width: 600px;
+background-color: aquamarine;
+padding: 15px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+}
+
+.main-izquierda {
+    flex:1;
+}
+.main-derecha {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
